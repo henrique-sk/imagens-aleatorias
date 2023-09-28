@@ -24,7 +24,7 @@ function getRandomImage() {
 function loadImages() {
   const container = document.getElementById('image-container');
 
-  for (let i = 0; i < images.length; i++) {
+  for (let i = 0; i < images.length*5; i++) {
       const image = document.createElement('img');
       image.src = getRandomImage();
       image.classList.add('image');
